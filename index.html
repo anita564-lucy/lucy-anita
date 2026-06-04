@@ -825,10 +825,18 @@
                     </a>
                 </div>
             </div>
-            <div class="contact-cta fade-up">
-                <h3>Open to Opportunities</h3>
-                <p>Whether it's a full-time role, freelance project or collaboration, I would love to hear from you!</p>
-                <a href="https://www.linkedin.com/in/lucy-odhiambo-65a123277" target="_blank" class="btn-primary">Connect on LinkedIn</a>
+          <div class="contact-cta fade-up">
+                <h3>Send Me a Message</h3>
+                <p>Fill in the form and I'll get back to you as soon as possible!</p>
+                <form action="https://formspree.io/f/xbdejbbv" method="POST" style="display:flex; flex-direction:column; gap:16px; text-align:left;">
+                    <input type="text" name="name" placeholder="Your Name" required
+                        style="padding:14px; border-radius:8px; border:1px solid rgba(255,255,255,0.1); background:var(--dark3); color:var(--text); font-family:'DM Sans',sans-serif; font-size:0.9rem;">
+                    <input type="email" name="email" placeholder="Your Email" required
+                        style="padding:14px; border-radius:8px; border:1px solid rgba(255,255,255,0.1); background:var(--dark3); color:var(--text); font-family:'DM Sans',sans-serif; font-size:0.9rem;">
+                    <textarea name="message" placeholder="Your Message" rows="5" required
+                        style="padding:14px; border-radius:8px; border:1px solid rgba(255,255,255,0.1); background:var(--dark3); color:var(--text); font-family:'DM Sans',sans-serif; font-size:0.9rem; resize:vertical;"></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
